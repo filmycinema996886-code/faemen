@@ -1,13 +1,19 @@
 @@ .. @@
  const WhyFramen = () => {
+ }
 +  const [hoveredFeature, setHoveredFeature] = React.useState<number | null>(null);
 +
    const features = [
      {
        icon: Target,
+     }
+   ]
 @@ .. @@
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
            {features.map((feature, index) => (
+           )
+           )
+           }
 -            <div key={index} className="space-y-4">
 -              <div className="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
 +            <div 
